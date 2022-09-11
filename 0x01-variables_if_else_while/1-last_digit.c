@@ -3,8 +3,10 @@
 #include <time.h>
 /**
  * main -print if the number is postive, zero, or negative
+ *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negative
+ *
  * Return: 0 
  *
  */
@@ -29,6 +31,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
-
 	return (0);
 }
