@@ -1,20 +1,3 @@
-
-Lordwill1
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-@Lordwill1
-Lordwill1 Added task 0 through 4 of project 0x15 .c
- 1 contributor
-314 lines (286 sloc)  6.69 KB
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -155,8 +138,7 @@ void print_version(unsigned char *e_ident)
 void print_osabi(unsigned char *e_ident)
 {
 	printf("  OS/ABI:                            ");
-
-	switch (e_ident[EI_OSABI])
+switch (e_ident[EI_OSABI])
 	{
 	case ELFOSABI_NONE:
 		printf("UNIX - System V\n");
